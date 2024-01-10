@@ -1,0 +1,12 @@
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\bin\Debug\net7.0\FoodApp.Core.deps.json
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\bin\Debug\net7.0\FoodApp.Core.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\bin\Debug\net7.0\FoodApp.Core.pdb
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.AssemblyInfoInputs.cache
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.AssemblyInfo.cs
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.csproj.CoreCompileInputs.cache
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.sourcelink.json
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\refint\FoodApp.Core.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\FoodApp.Core.pdb
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Core\obj\Debug\net7.0\ref\FoodApp.Core.dll

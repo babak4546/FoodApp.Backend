@@ -1,4 +1,9 @@
+﻿
+
+using FoodApp.API.Security.DTOs;
+using FoodApp.Core.Entities;
 using FoodApp.Infrastructure.Data;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,29 +27,29 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.MapPost("/signup",( FoodAppDB db ,ApplicationUser user)=>{
+    db.ApplicationUsers.Add(user);
+    db.SaveChanges();
+    return Results.Ok();
 
-app.MapGet("/weatherforecast", () =>
+});
+app.MapPost("/signin", (FoodAppDB db, ApplicationUser user,LoginDto login) =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
-
+    var result = db.ApplicationUsers.FirstOrDefault(a => a.Username == "babak" && a.Password == "4546");
+    if (result == null)
+    {
+        return Results.Ok(new
+        {
+            Message = "نام کاربری یا کلمه عبور نادرست است",
+            Success = false
+        });
+    }
+    return Results.Ok(new
+    {
+        Message = "خوش امدید",
+        Success = true
+    });
+});
 app.Run();
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+ 
