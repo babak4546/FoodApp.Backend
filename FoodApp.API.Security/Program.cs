@@ -16,8 +16,10 @@ builder.Services.AddDbContext<FoodAppDB>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MainDB"));
 });
+builder.Services.AddCors(options
+    =>options.AddDefaultPolicy(builder=>builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
 var app = builder.Build();
-
+app.UseCors();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -33,9 +35,9 @@ app.MapPost("/signup",( FoodAppDB db ,ApplicationUser user)=>{
     return Results.Ok();
 
 });
-app.MapPost("/signin", (FoodAppDB db, ApplicationUser user,LoginDto login) =>
+app.MapPost("/signin", (FoodAppDB db, LoginDto login) =>
 {
-    var result = db.ApplicationUsers.FirstOrDefault(a => a.Username == "babak" && a.Password == "4546");
+    var result = db.ApplicationUsers.FirstOrDefault(a => a.Username == login.Username && a.Password == login.Password);
     if (result == null)
     {
         return Results.Ok(new
