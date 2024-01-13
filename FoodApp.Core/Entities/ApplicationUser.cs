@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodApp.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace FoodApp.Core.Entities
         public string? Username { get; set; }
         public string? Password { get; set; }
         public string? Fullname { get; set; }
-        public string? Type { get; set; }
+        public ApplicationUserType Type { get; set; }
         public string? Email { get; set; }
 
     }
