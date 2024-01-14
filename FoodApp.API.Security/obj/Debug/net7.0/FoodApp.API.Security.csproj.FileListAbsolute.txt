@@ -111,3 +111,4 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\M
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\System.CodeDom.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
