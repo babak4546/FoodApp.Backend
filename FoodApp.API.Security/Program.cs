@@ -32,12 +32,13 @@ app.MapPost("/signup", async( FoodAppDB db ,ApplicationUser user)=>{
 });
 app.MapPost("/signin", async(FoodAppDB db, LoginDto login) =>
 {
+
     var result =await db.ApplicationUsers.FirstOrDefaultAsync(a => a.Username == login.Username && a.Password == login.Password);
     if (result == null)
     {
         return Results.Ok(new LoginResultDto
         {
-            Message = "نام کاربری یا کلمه عبور نادرست است",
+            Message = "نام کاربری یا کلمه عبور اشتباه است",
             IsOk = false
         });
     }
@@ -63,6 +64,7 @@ var token = new JwtSecurityToken(
         Message = "خوش امدید",
         IsOk = true,
         Token=new JwtSecurityTokenHandler().WriteToken(token),
+        Type=result.Type.ToString(),
     });
 });
 app.Run();
