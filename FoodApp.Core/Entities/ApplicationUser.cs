@@ -14,6 +14,8 @@ namespace FoodApp.Core.Entities
         public string? Fullname { get; set; }
         public ApplicationUserType Type { get; set; }
         public string? Email { get; set; }
+        public bool Verified { get; set; }=false;
+        public string VerificationCode { get; set; }
 
     }
 }

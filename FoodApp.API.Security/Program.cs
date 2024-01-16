@@ -2,6 +2,7 @@
 
 using FoodApp.API.Security.DTOs;
 using FoodApp.Core.Entities;
+using FoodApp.Core.Enums;
 using FoodApp.Infrastructure.Data;
 using FoodApp.Infrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -14,9 +15,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
 
 SecurityServices.AddServices(builder);
 
@@ -25,6 +23,9 @@ SecurityServices.UseServices(app);
 
 
 app.MapPost("/signup", async( FoodAppDB db ,ApplicationUser user)=>{
+    var rg = new Random();
+    user.VerificationCode=rg.Next(100000,999999).ToString();
+    //send sms 
    await db.ApplicationUsers.AddAsync(user);
    await db.SaveChangesAsync();
     return Results.Ok();
@@ -32,8 +33,21 @@ app.MapPost("/signup", async( FoodAppDB db ,ApplicationUser user)=>{
 });
 app.MapPost("/signin", async(FoodAppDB db, LoginDto login) =>
 {
+    if (!db.ApplicationUsers.Any())
+    {
+       await db.ApplicationUsers.AddAsync(new ApplicationUser
+        {
+            Email="admin@admin.com",
+            Fullname="babak babaie",
+            Username="admin",
+            Password="admin",
+            Type=ApplicationUserType.SystemAdmin,
+            Verified=true
 
-    var result =await db.ApplicationUsers.FirstOrDefaultAsync(a => a.Username == login.Username && a.Password == login.Password);
+        });
+        await db.SaveChangesAsync();
+    }
+    var result =await db.ApplicationUsers.FirstOrDefaultAsync(a => a.Verified==true && a.Username == login.Username && a.Password == login.Password);
     if (result == null)
     {
         return Results.Ok(new LoginResultDto
