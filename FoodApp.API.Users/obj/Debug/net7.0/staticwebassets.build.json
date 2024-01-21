@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KvLnhv+LHjCfUOEobAg1uowBQq6dqpvSBzyXus7eVkU=",
+  "Source": "FoodApp.API.Users",
+  "BasePath": "_content/FoodApp.API.Users",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
