@@ -14,11 +14,11 @@ app.MapPost("/list",async (FoodAppDB db) =>
         .ToList());
         
      
-});
+}).RequireAuthorization();
 app.MapPost("/alist", async (FoodAppDB db,ListRequestDTO listRequest) =>
 {
     return Results.Ok(db.ApplicationUsers.ToList());
-});
+}).RequireAuthorization();
 
 app.Run();
 
