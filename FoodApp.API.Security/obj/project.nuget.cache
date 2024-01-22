@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U5sfa599Ycj2/isYgrsOQXg5ftvDH50uTaFDvmUQfwcJUI8iTfTH6V7vr3Co0j9bSkBAEXGXOxTk5dWlBpfz/Q==",
+  "dgSpecHash": "vEN+m07WUsO2Ao/E9939k5lNb82ffg+g+Gf1Wg6Saww9i3wBjsxtpCmDcMhTq3KxxqXMKxf4AATJ2Emow/lHEQ==",
   "success": true,
   "projectFilePath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Security\\FoodApp.API.Security.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\RiMo\\.nuget\\packages\\ardalis.guardclauses\\4.3.0\\ardalis.guardclauses.4.3.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

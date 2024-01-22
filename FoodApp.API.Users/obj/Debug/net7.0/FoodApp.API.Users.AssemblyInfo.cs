@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodApp.API.Users")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de7a47aebe232de852f2818c63d97f5e8161ecb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da8083f035033a0a8502b8baa33b2a0a52e69552")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodApp.API.Users")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodApp.API.Users")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

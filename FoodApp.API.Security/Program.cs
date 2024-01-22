@@ -1,11 +1,14 @@
 ﻿
 
+using Ardalis.GuardClauses;
 using FoodApp.API.Security.DTOs;
 using FoodApp.Core.Entities;
 using FoodApp.Core.Enums;
+using FoodApp.Core.Exceptions;
 using FoodApp.Infrastructure.Data;
 using FoodApp.Infrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -16,12 +19,32 @@ var builder = WebApplication.CreateBuilder(args);
 SecurityServices.AddServices(builder);
 var app = builder.Build();
 SecurityServices.UseServices(app);
-app.MapPost("/signup", async( FoodAppDB db ,ApplicationUser user)=>{
+
+app.MapPost("/signup", async( FoodAppDB db ,RegisterRequestDto register)=>{
     var rg = new Random();
+    var user = new ApplicationUser();
+    user.Username=register.Username;
+    user.Password=register.Password;    
+    Guard.Against.NullOrEmpty(user.Username,message:"نام کاربری نمی تواند تهی باشد");   
+    if (register.Password.Length<4)
+    {
+        throw new InvalidPasswordException();   
+    }
+    user.Email=register.Email;  
+    user.Fullname=register.Fullname;
+    user.Type=register.Type;
     user.VerificationCode=rg.Next(100000,999999).ToString();
     //send sms 
    await db.ApplicationUsers.AddAsync(user);
-   await db.SaveChangesAsync();
+    try
+    {
+        await db.SaveChangesAsync();
+
+    }
+    catch
+    {
+        throw new DuplicateUsernameException();
+    }   
     return Results.Ok();
 
 });

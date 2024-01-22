@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "FoodApp.API.Security/1.0.0": {
         "dependencies": {
+          "Ardalis.GuardClauses": "4.3.0",
           "FoodApp.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.15",
           "Microsoft.EntityFrameworkCore.Design": "7.0.15",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "FoodApp.API.Security.dll": {}
+        }
+      },
+      "Ardalis.GuardClauses/4.3.0": {
+        "runtime": {
+          "lib/net7.0/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -707,6 +716,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Ardalis.GuardClauses/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5KQ6zQDNRduora6L8lGQcRikLNLj0s4XjctGuUX24uBRzHMMKv6BatVDSBWRs96riz7PJj7Efn3yOFhfYXgnWg==",
+      "path": "ardalis.guardclauses/4.3.0",
+      "hashPath": "ardalis.guardclauses.4.3.0.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",
