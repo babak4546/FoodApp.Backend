@@ -6,6 +6,7 @@ using FoodApp.Core.Entities;
 using FoodApp.Core.Enums;
 using FoodApp.Core.Exceptions;
 using FoodApp.Infrastructure.Data;
+using FoodApp.Infrastructure.ExceptionHandler;
 using FoodApp.Infrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics;
@@ -41,9 +42,9 @@ app.MapPost("/signup", async( FoodAppDB db ,RegisterRequestDto register)=>{
         await db.SaveChangesAsync();
 
     }
-    catch
+    catch(Exception ex)
     {
-        throw new DuplicateUsernameException();
+        DBExceptionHandler.HandleIt(ex);
     }   
     return Results.Ok();
 

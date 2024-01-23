@@ -1,4 +1,6 @@
-﻿using FoodApp.Infrastructure.Data;
+﻿using FoodApp.Core.Exceptions;
+using FoodApp.Core.Interfaces;
+using FoodApp.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
@@ -61,12 +63,17 @@ namespace FoodApp.Infrastructure.Security
             app.UseHttpsRedirection();
             app.UseExceptionHandler(c => c.Run(async context =>
             {
-                var exception = context.Features
-                .Get<IExceptionHandlerPathFeature>()
-                .Error;
-                var response = new { Error = exception.Message };
-                await context.Response.WriteAsJsonAsync(response);
-            }));
+                     var exception = context.Features
+                       .Get<IExceptionHandlerPathFeature>()
+                       .Error;
+                     var response = new
+                     { 
+                         type=(exception is IDataException)?"داده ای":"سیستمی",
+                         Error = exception.Message
+                     };
+                     await context.Response.WriteAsJsonAsync(response);
+                })
+            );
         }
     }
 }
