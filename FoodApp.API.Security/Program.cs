@@ -25,11 +25,16 @@ app.MapPost("/signup", async( FoodAppDB db ,RegisterRequestDto register)=>{
     var rg = new Random();
     var user = new ApplicationUser();
     user.Username=register.Username;
-    user.Password=register.Password;    
     Guard.Against.NullOrEmpty(user.Username,message:"نام کاربری نمی تواند تهی باشد");   
     if (register.Password.Length<4)
     {
         throw new InvalidPasswordException();   
+    }
+
+    user.Password=register.Password;
+    if (register.Email.IsNullOrEmpty())
+    {
+        throw new InvalidEmailException();  
     }
     user.Email=register.Email;  
     user.Fullname=register.Fullname;
