@@ -149,6 +149,33 @@ app.MapPost("/adminsignin", async (FoodAppDB db, LoginDto login) =>
         Type = result.Type.ToString(),
     });
 });
+
+app.MapGet("/admincheck", (ClaimsPrincipal user ) =>
+{
+    if (user.Claims.FirstOrDefault(m=>m.Type=="Type")?.Value== "SystemAdmin")
+    {   
+        return true;
+    }
+    return false;
+
+}).RequireAuthorization();
+app.MapGet("/customercheck", (ClaimsPrincipal user) =>
+{
+    if (user.Claims.FirstOrDefault(m => m.Type == "Type")?.Value == "Customer")
+    {
+        return true;
+    }
+    return false;
+
+}).RequireAuthorization();
+app.MapGet("/restaurantownercheck", (ClaimsPrincipal user) =>
+{
+    if (user.Claims.FirstOrDefault(m => m.Type == "Type")?.Value == "RestaurantOwner")
+    {
+        return true;
+    }
+    return false;
+
+}).RequireAuthorization();
 app.Run();
 
- 
