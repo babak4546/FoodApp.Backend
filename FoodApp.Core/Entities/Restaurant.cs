@@ -8,7 +8,7 @@ namespace FoodApp.Core.Entities
 {
     public class Restaurant :BaseEntity
     {
-        public string Title { get; set; }
+        public string? Title { get; set; }
         public ApplicationUser Owner { get; set; }
         public string OwnerUsername { get; set; }
         public Boolean IsApproved { get; set; }
@@ -16,6 +16,6 @@ namespace FoodApp.Core.Entities
         public string? ApproverUsername { get; set; }
         public DateTime? ApprovedTime { get; set; }
         public Boolean IsActive { get; set; }
-
+        public string? Address { get; set; }
     }
 }
