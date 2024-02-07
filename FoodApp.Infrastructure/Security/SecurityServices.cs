@@ -60,7 +60,7 @@ namespace FoodApp.Infrastructure.Security
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+          //  app.UseHttpsRedirection();
             app.UseExceptionHandler(c => c.Run(async context =>
             {
                      var exception = context.Features

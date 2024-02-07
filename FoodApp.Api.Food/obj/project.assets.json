@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Ardalis.GuardClauses/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ardalis.GuardClauses.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Ardalis.GuardClauses.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -1188,6 +1201,29 @@
     }
   },
   "libraries": {
+    "Ardalis.GuardClauses/4.4.0": {
+      "sha512": "5uT/agNlTzIwlRXSQIeSE8BBgBMrJG0nYls1YHL+7p2pLcs8FQIi6DkD7Zsla3hsf9ctn5SErU6AsqQJ4LuLVA==",
+      "type": "package",
+      "path": "ardalis.guardclauses/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "ardalis.guardclauses.4.4.0.nupkg.sha512",
+        "ardalis.guardclauses.nuspec",
+        "icon.png",
+        "lib/net7.0/Ardalis.GuardClauses.dll",
+        "lib/net7.0/Ardalis.GuardClauses.pdb",
+        "lib/net7.0/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.0/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.0/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.0/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.1/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.1/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.1/Ardalis.GuardClauses.xml"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -3721,6 +3757,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Ardalis.GuardClauses >= 4.4.0",
       "FoodApp.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.15",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -3775,6 +3812,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Ardalis.GuardClauses": {
+            "target": "Package",
+            "version": "[4.4.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.15, )"

@@ -8,12 +8,21 @@
     ".NETCoreApp,Version=v7.0": {
       "FoodApp.Api.Food/1.0.0": {
         "dependencies": {
+          "Ardalis.GuardClauses": "4.4.0",
           "FoodApp.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.15",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "FoodApp.Api.Food.dll": {}
+        }
+      },
+      "Ardalis.GuardClauses/4.4.0": {
+        "runtime": {
+          "lib/net7.0/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -649,6 +658,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Ardalis.GuardClauses/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5uT/agNlTzIwlRXSQIeSE8BBgBMrJG0nYls1YHL+7p2pLcs8FQIi6DkD7Zsla3hsf9ctn5SErU6AsqQJ4LuLVA==",
+      "path": "ardalis.guardclauses/4.4.0",
+      "hashPath": "ardalis.guardclauses.4.4.0.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",

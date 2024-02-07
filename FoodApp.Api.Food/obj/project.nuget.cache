@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f9/5lQ5LScKSEiURAnfPn2mQit4XfH2ZpoTdmInFu+LAJDhrQwR7fSUnvhAvBD8vxSfs1RWsL/AlCXW+ajYqow==",
+  "dgSpecHash": "oSzEGjPsai7oUMTNxJpDH0oBAWFbIzhk024cBmFmanrpa9okRJwYdEBlp0F2Kl1BL7vYYF0yXB7R0x27tJtFCA==",
   "success": true,
   "projectFilePath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\FoodApp.Api.Food.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\RiMo\\.nuget\\packages\\ardalis.guardclauses\\4.4.0\\ardalis.guardclauses.4.4.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.15\\microsoft.aspnetcore.authentication.jwtbearer.7.0.15.nupkg.sha512",
