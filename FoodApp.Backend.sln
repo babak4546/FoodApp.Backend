@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp.Infrastructure", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp.Api.Restaurants", "FoodApp.Api.Restaurants\FoodApp.Api.Restaurants.csproj", "{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.API.Users", "FoodApp.API.Users\FoodApp.API.Users.csproj", "{DB1E801B-8FB4-4937-8C6E-42826735225B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp.API.Users", "FoodApp.API.Users\FoodApp.API.Users.csproj", "{DB1E801B-8FB4-4937-8C6E-42826735225B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.Api.Food", "FoodApp.Api.Food\FoodApp.Api.Food.csproj", "{329863F0-6784-49DB-9B20-A0FD04D0AC72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DB1E801B-8FB4-4937-8C6E-42826735225B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1E801B-8FB4-4937-8C6E-42826735225B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1E801B-8FB4-4937-8C6E-42826735225B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329863F0-6784-49DB-9B20-A0FD04D0AC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329863F0-6784-49DB-9B20-A0FD04D0AC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329863F0-6784-49DB-9B20-A0FD04D0AC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329863F0-6784-49DB-9B20-A0FD04D0AC72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{BA0D2B9E-3E0C-4E7A-AA83-CBA4009B8678} = {8519656D-DC08-4A58-84C9-664E8BCD7153}
 		{F23FD1D6-5560-4F3C-A525-B3940FE73EBD} = {59620612-EB4E-4B2E-8BC6-CE20F31049EF}
 		{DB1E801B-8FB4-4937-8C6E-42826735225B} = {59620612-EB4E-4B2E-8BC6-CE20F31049EF}
+		{329863F0-6784-49DB-9B20-A0FD04D0AC72} = {59620612-EB4E-4B2E-8BC6-CE20F31049EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D10BDF0-E023-44D8-8696-33BBEE5AD1FE}

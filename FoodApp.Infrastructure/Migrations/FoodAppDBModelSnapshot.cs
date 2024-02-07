@@ -51,6 +51,48 @@ namespace FoodApp.Infrastructure.Migrations
                     b.ToTable("ApplicationUsers");
                 });
 
+            modelBuilder.Entity("FoodApp.Core.Entities.Food", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Discount")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsAvailable")
+                        .HasColumnType("bit");
+
+                    b.Property<byte[]>("Photo")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("PhotoType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RestaurantId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RestaurantId");
+
+                    b.ToTable("Foods");
+                });
+
             modelBuilder.Entity("FoodApp.Core.Entities.Restaurant", b =>
                 {
                     b.Property<int>("Id")
@@ -93,6 +135,17 @@ namespace FoodApp.Infrastructure.Migrations
                     b.ToTable("Restaurants");
                 });
 
+            modelBuilder.Entity("FoodApp.Core.Entities.Food", b =>
+                {
+                    b.HasOne("FoodApp.Core.Entities.Restaurant", "Restaurant")
+                        .WithMany("Foods")
+                        .HasForeignKey("RestaurantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Restaurant");
+                });
+
             modelBuilder.Entity("FoodApp.Core.Entities.Restaurant", b =>
                 {
                     b.HasOne("FoodApp.Core.Entities.ApplicationUser", "Approver")
@@ -108,6 +161,11 @@ namespace FoodApp.Infrastructure.Migrations
                     b.Navigation("Approver");
 
                     b.Navigation("Owner");
+                });
+
+            modelBuilder.Entity("FoodApp.Core.Entities.Restaurant", b =>
+                {
+                    b.Navigation("Foods");
                 });
 #pragma warning restore 612, 618
         }

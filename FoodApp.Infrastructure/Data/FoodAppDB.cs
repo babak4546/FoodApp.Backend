@@ -13,6 +13,7 @@ namespace FoodApp.Infrastructure.Data
     {
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<Food> Foods { get; set; }
         public FoodAppDB(DbContextOptions<FoodAppDB> options)
             :base(options) 
         {

@@ -51,6 +51,20 @@ app.MapPost("/approve", (FoodAppDB db, ClaimsPrincipal user,ApproveDto approve) 
     db.SaveChanges();
     return Results.Ok();
 }).RequireAuthorization();
+app.MapPost("/changestate", (FoodAppDB db, ChangeStateDto changestate, ClaimsPrincipal user) =>
+{
+    var myUsername = user.Claims?.FirstOrDefault(m => m.Type == "Username")?.Value ?? "";
+
+    changestate.Ids.ForEach(r =>
+    {
+        var restaurant = db.Restaurants.FirstOrDefault(m => m.Id == r && m.OwnerUsername==myUsername);
+        restaurant.IsActive = !restaurant.IsActive;
+
+    });
+    db.SaveChanges();
+    return Results.Ok();
+}).RequireAuthorization();
+
 app.MapPost("/requestlist", async (FoodAppDB db,ClaimsPrincipal user) =>
 {
     if (user.Claims.FirstOrDefault(m=>m.Type=="Type")?.Value!="SystemAdmin")
@@ -80,5 +94,24 @@ return Results.Ok(
       Count=await db.Restaurants.CountAsync(c=>c.IsApproved==false)
     });
 });
- app.Run();
+
+app.MapPost("/myrestaurants", async (FoodAppDB db, ClaimsPrincipal user) =>
+{
+    var myUsername=user.Claims?.FirstOrDefault(m=>m.Type=="Username")?.Value??"";
+    return Results.Ok(db.Restaurants
+    .Include(m => m.Owner)
+    .Where(r => r.IsApproved == true && r.OwnerUsername==myUsername)
+    .Select(m => new RestaurantDto
+    {
+        Address = m.Address,
+        Title = m.Title,
+        Id = m.Id,
+        ApprovedTime=m.ApprovedTime,
+        IsActive=m.IsActive,
+
+    })
+    .ToList());
+
+}).RequireAuthorization();
+app.Run();
 

@@ -17,5 +17,6 @@ namespace FoodApp.Core.Entities
         public DateTime? ApprovedTime { get; set; }
         public Boolean IsActive { get; set; }
         public string? Address { get; set; }
+        public List<Food> Foods { get; set; }
     }
 }
