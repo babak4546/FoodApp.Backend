@@ -1,0 +1,412 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1064E-6527-4A60-844C-A2F6988D91B1}|FoodApp.API.Home\\FoodApp.API.Home.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.home\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A1064E-6527-4A60-844C-A2F6988D91B1}|FoodApp.API.Home\\FoodApp.API.Home.csproj|solutionrelative:foodapp.api.home\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1064E-6527-4A60-844C-A2F6988D91B1}|FoodApp.API.Home\\FoodApp.API.Home.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.home\\dtos\\fooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A1064E-6527-4A60-844C-A2F6988D91B1}|FoodApp.API.Home\\FoodApp.API.Home.csproj|solutionrelative:foodapp.api.home\\dtos\\fooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1064E-6527-4A60-844C-A2F6988D91B1}|FoodApp.API.Home\\FoodApp.API.Home.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.home\\foodapp.api.home.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08A1064E-6527-4A60-844C-A2F6988D91B1}|FoodApp.API.Home\\FoodApp.API.Home.csproj|solutionrelative:foodapp.api.home\\foodapp.api.home.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.food\\foodapp.api.food.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|solutionrelative:foodapp.api.food\\foodapp.api.food.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.core\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|solutionrelative:foodapp.core\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36186E-EA7D-4DE1-8FC0-1B8EF2AEFF06}|FoodApp.API.Security\\FoodApp.API.Security.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36186E-EA7D-4DE1-8FC0-1B8EF2AEFF06}|FoodApp.API.Security\\FoodApp.API.Security.csproj|solutionrelative:foodapp.api.security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36186E-EA7D-4DE1-8FC0-1B8EF2AEFF06}|FoodApp.API.Security\\FoodApp.API.Security.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.security\\foodapp.api.security.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED36186E-EA7D-4DE1-8FC0-1B8EF2AEFF06}|FoodApp.API.Security\\FoodApp.API.Security.csproj|solutionrelative:foodapp.api.security\\foodapp.api.security.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.food\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|solutionrelative:foodapp.api.food\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.food\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|solutionrelative:foodapp.api.food\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.food\\dtos\\updatefooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|solutionrelative:foodapp.api.food\\dtos\\updatefooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.food\\dtos\\newfooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|solutionrelative:foodapp.api.food\\dtos\\newfooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.food\\dtos\\fooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329863F0-6784-49DB-9B20-A0FD04D0AC72}|FoodApp.Api.Food\\FoodApp.Api.Food.csproj|solutionrelative:foodapp.api.food\\dtos\\fooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0D2B9E-3E0C-4E7A-AA83-CBA4009B8678}|FoodApp.Infrastructure\\FoodApp.Infrastructure.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.infrastructure\\security\\securityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0D2B9E-3E0C-4E7A-AA83-CBA4009B8678}|FoodApp.Infrastructure\\FoodApp.Infrastructure.csproj|solutionrelative:foodapp.infrastructure\\security\\securityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.core\\exceptions\\forbiddenrestaurantexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|solutionrelative:foodapp.core\\exceptions\\forbiddenrestaurantexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.core\\exceptions\\restaurantnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|solutionrelative:foodapp.core\\exceptions\\restaurantnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.restaurants\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|solutionrelative:foodapp.api.restaurants\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0D2B9E-3E0C-4E7A-AA83-CBA4009B8678}|FoodApp.Infrastructure\\FoodApp.Infrastructure.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.infrastructure\\data\\foodappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0D2B9E-3E0C-4E7A-AA83-CBA4009B8678}|FoodApp.Infrastructure\\FoodApp.Infrastructure.csproj|solutionrelative:foodapp.infrastructure\\data\\foodappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.restaurants\\dtos\\changestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|solutionrelative:foodapp.api.restaurants\\dtos\\changestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.restaurants\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|solutionrelative:foodapp.api.restaurants\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.restaurants\\dtos\\restaurantrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|solutionrelative:foodapp.api.restaurants\\dtos\\restaurantrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.restaurants\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|solutionrelative:foodapp.api.restaurants\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.api.restaurants\\dtos\\approvedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F23FD1D6-5560-4F3C-A525-B3940FE73EBD}|FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj|solutionrelative:foodapp.api.restaurants\\dtos\\approvedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|c:\\prog\\realproj\\backend\\foodapp.backend\\foodapp.core\\enums\\applicationusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5040A39D-7C14-48D2-A6FE-53B7BFD0B0B6}|FoodApp.Core\\FoodApp.Core.csproj|solutionrelative:foodapp.core\\enums\\applicationusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Security\\Program.cs",
+              "RelativeDocumentMoniker": "FoodApp.API.Security\\Program.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Security\\Program.cs",
+              "RelativeToolTip": "FoodApp.API.Security\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T18:36:35.083Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Home\\Program.cs",
+              "RelativeDocumentMoniker": "FoodApp.API.Home\\Program.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Home\\Program.cs",
+              "RelativeToolTip": "FoodApp.API.Home\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T16:50:47.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Home\\DTOs\\FoodDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.API.Home\\DTOs\\FoodDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Home\\DTOs\\FoodDto.cs",
+              "RelativeToolTip": "FoodApp.API.Home\\DTOs\\FoodDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T16:21:57.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodApp.API.Home",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Home\\FoodApp.API.Home.csproj",
+              "RelativeDocumentMoniker": "FoodApp.API.Home\\FoodApp.API.Home.csproj",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Home\\FoodApp.API.Home.csproj",
+              "RelativeToolTip": "FoodApp.API.Home\\FoodApp.API.Home.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-14T16:21:23.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FoodApp.API.Security",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Security\\FoodApp.API.Security.csproj",
+              "RelativeDocumentMoniker": "FoodApp.API.Security\\FoodApp.API.Security.csproj",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.API.Security\\FoodApp.API.Security.csproj",
+              "RelativeToolTip": "FoodApp.API.Security\\FoodApp.API.Security.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-14T15:39:35.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateFoodDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\DTOs\\UpdateFoodDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Food\\DTOs\\UpdateFoodDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\DTOs\\UpdateFoodDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Food\\DTOs\\UpdateFoodDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T15:09:11.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\Program.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Food\\Program.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\Program.cs",
+              "RelativeToolTip": "FoodApp.Api.Food\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAIwEcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T16:41:38.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Entities\\Restaurant.cs",
+              "RelativeDocumentMoniker": "FoodApp.Core\\Entities\\Restaurant.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Entities\\Restaurant.cs",
+              "RelativeToolTip": "FoodApp.Core\\Entities\\Restaurant.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA4wA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T14:52:17.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodApp.Api.Food.csproj",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\FoodApp.Api.Food.csproj",
+              "RelativeDocumentMoniker": "FoodApp.Api.Food\\FoodApp.Api.Food.csproj",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\FoodApp.Api.Food.csproj",
+              "RelativeToolTip": "FoodApp.Api.Food\\FoodApp.Api.Food.csproj",
+              "ViewState": "AQIAABIAAAAAFl/xFR8owAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-06T16:56:45.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewFoodDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\DTOs\\NewFoodDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Food\\DTOs\\NewFoodDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\DTOs\\NewFoodDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Food\\DTOs\\NewFoodDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T12:15:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FoodDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\DTOs\\FoodDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Food\\DTOs\\FoodDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\DTOs\\FoodDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Food\\DTOs\\FoodDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T14:40:43.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FoodAppDB.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Infrastructure\\Data\\FoodAppDB.cs",
+              "RelativeDocumentMoniker": "FoodApp.Infrastructure\\Data\\FoodAppDB.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Infrastructure\\Data\\FoodAppDB.cs",
+              "RelativeToolTip": "FoodApp.Infrastructure\\Data\\FoodAppDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T16:43:15.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodApp.Api.Food\\appsettings.json",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Food\\appsettings.json",
+              "RelativeToolTip": "FoodApp.Api.Food\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-06T16:41:00.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RestaurantNotFoundException.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Exceptions\\RestaurantNotFoundException.cs",
+              "RelativeDocumentMoniker": "FoodApp.Core\\Exceptions\\RestaurantNotFoundException.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Exceptions\\RestaurantNotFoundException.cs",
+              "RelativeToolTip": "FoodApp.Core\\Exceptions\\RestaurantNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T12:25:55.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SecurityServices.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Infrastructure\\Security\\SecurityServices.cs",
+              "RelativeDocumentMoniker": "FoodApp.Infrastructure\\Security\\SecurityServices.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Infrastructure\\Security\\SecurityServices.cs",
+              "RelativeToolTip": "FoodApp.Infrastructure\\Security\\SecurityServices.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwEIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T13:19:11.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ForbiddenRestaurantException.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Exceptions\\ForbiddenRestaurantException.cs",
+              "RelativeDocumentMoniker": "FoodApp.Core\\Exceptions\\ForbiddenRestaurantException.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Exceptions\\ForbiddenRestaurantException.cs",
+              "RelativeToolTip": "FoodApp.Core\\Exceptions\\ForbiddenRestaurantException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T12:31:01.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChangeStateDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\ChangeStateDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Restaurants\\DTOs\\ChangeStateDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\ChangeStateDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Restaurants\\DTOs\\ChangeStateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T15:09:05.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RestaurantDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\RestaurantDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Restaurants\\DTOs\\RestaurantDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\RestaurantDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Restaurants\\DTOs\\RestaurantDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T14:48:49.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\Program.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Restaurants\\Program.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\Program.cs",
+              "RelativeToolTip": "FoodApp.Api.Restaurants\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBJwFIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T14:02:51.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RestaurantRequestDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\RestaurantRequestDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Restaurants\\DTOs\\RestaurantRequestDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\RestaurantRequestDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Restaurants\\DTOs\\RestaurantRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T15:13:49.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RequestDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\RequestDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Restaurants\\DTOs\\RequestDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\RequestDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Restaurants\\DTOs\\RequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T16:12:48.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApproveDto.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\ApproveDto.cs",
+              "RelativeDocumentMoniker": "FoodApp.Api.Restaurants\\DTOs\\ApproveDto.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\DTOs\\ApproveDto.cs",
+              "RelativeToolTip": "FoodApp.Api.Restaurants\\DTOs\\ApproveDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T16:31:39.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationUserType.cs",
+              "DocumentMoniker": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Enums\\ApplicationUserType.cs",
+              "RelativeDocumentMoniker": "FoodApp.Core\\Enums\\ApplicationUserType.cs",
+              "ToolTip": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Core\\Enums\\ApplicationUserType.cs",
+              "RelativeToolTip": "FoodApp.Core\\Enums\\ApplicationUserType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T14:42:20.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

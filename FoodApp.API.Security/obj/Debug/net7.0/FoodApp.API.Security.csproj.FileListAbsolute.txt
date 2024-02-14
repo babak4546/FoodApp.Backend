@@ -100,7 +100,6 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\s
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FoodApp.API.Security.props
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\staticwebassets.pack.json
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\scopedcss\bundle\FoodApp.API.Security.styles.css
-C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\FoodApp.API.Security.csproj.CopyComplete
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\FoodApp.API.Security.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\refint\FoodApp.API.Security.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\FoodApp.API.Security.pdb
@@ -114,3 +113,4 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\S
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\bin\Debug\net7.0\Ardalis.GuardClauses.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Security\obj\Debug\net7.0\FoodApp..A4D109D6.Up2Date

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ngQODoMMQbusWRZr7iRrHTlc4a1ZXh1KmdyhzPuxllJ+XQrvEqhAVy8il7dAyLhJ9BExpmzKgFpVx+TaaWhiuw==",
+  "dgSpecHash": "cc8GGV9NNVj8FVOGTeptTufngDDwgtUdE3ORw0rar1Deg4rOWPy+fGeEk++FgwsuDlq/sIUn6CK3EgufQSLkSQ==",
   "success": true,
-  "projectFilePath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj",
+  "projectFilePath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.API.Restaurants.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RiMo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\RiMo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

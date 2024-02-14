@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "FoodApp.Api.Restaurants/1.0.0": {
+      "FoodApp.API.Restaurants/1.0.0": {
         "dependencies": {
           "FoodApp.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.15",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
-          "FoodApp.Api.Restaurants.dll": {}
+          "FoodApp.API.Restaurants.dll": {}
         }
       },
       "Azure.Core/1.24.0": {
@@ -645,7 +645,7 @@
     }
   },
   "libraries": {
-    "FoodApp.Api.Restaurants/1.0.0": {
+    "FoodApp.API.Restaurants/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

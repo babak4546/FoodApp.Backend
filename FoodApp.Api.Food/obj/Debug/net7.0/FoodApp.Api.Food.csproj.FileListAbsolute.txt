@@ -69,10 +69,10 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\stati
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FoodApp.Api.Food.props
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\staticwebassets.pack.json
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\scopedcss\bundle\FoodApp.Api.Food.styles.css
-C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\FoodApp.Api.Food.csproj.CopyComplete
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\FoodApp.Api.Food.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\refint\FoodApp.Api.Food.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\FoodApp.Api.Food.pdb
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\FoodApp.Api.Food.genruntimeconfig.cache
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\ref\FoodApp.Api.Food.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\bin\Debug\net7.0\Ardalis.GuardClauses.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Food\obj\Debug\net7.0\FoodApp..99FCDE83.Up2Date

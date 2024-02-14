@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "FoodApp.API.Security\\FoodApp.API.Security.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "FoodApp.Api.Restaurants\\FoodApp.API.Restaurants.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "FoodApp.API.Users\\FoodApp.API.Users.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "FoodApp.Api.Food\\FoodApp.Api.Food.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "FoodApp.API.Home\\FoodApp.API.Home.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": ""
+      }
+    ]
+  }
+]

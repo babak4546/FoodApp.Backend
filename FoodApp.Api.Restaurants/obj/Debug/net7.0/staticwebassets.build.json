@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "9Hg378OXC8O7ZOeLkjk+OnBRwnAKlVd9C8K8MWkwwSU=",
-  "Source": "FoodApp.Api.Restaurants",
-  "BasePath": "_content/FoodApp.Api.Restaurants",
+  "Hash": "DIP80t78lSuow6cQmMNRrYkpj5epvTiWQUlKGStdJM4=",
+  "Source": "FoodApp.API.Restaurants",
+  "BasePath": "_content/FoodApp.API.Restaurants",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

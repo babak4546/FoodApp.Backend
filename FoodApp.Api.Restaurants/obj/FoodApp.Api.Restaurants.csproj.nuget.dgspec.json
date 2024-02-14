@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj": {}
+    "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.API.Restaurants.csproj": {}
   },
   "projects": {
-    "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj": {
+    "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.API.Restaurants.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj",
-        "projectName": "FoodApp.Api.Restaurants",
-        "projectPath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.Api.Restaurants.csproj",
+        "projectUniqueName": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.API.Restaurants.csproj",
+        "projectName": "FoodApp.API.Restaurants",
+        "projectPath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\FoodApp.API.Restaurants.csproj",
         "packagesPath": "C:\\Users\\RiMo\\.nuget\\packages\\",
         "outputPath": "C:\\prog\\realproj\\backend\\FoodApp.Backend\\FoodApp.Api.Restaurants\\obj\\",
         "projectStyle": "PackageReference",
@@ -43,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -116,6 +121,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -137,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -180,6 +190,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -227,7 +242,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

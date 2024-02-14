@@ -69,9 +69,9 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\stat
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FoodApp.API.Users.props
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\staticwebassets.pack.json
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\scopedcss\bundle\FoodApp.API.Users.styles.css
-C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\FoodApp.API.Users.csproj.CopyComplete
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\FoodApp.API.Users.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\refint\FoodApp.API.Users.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\FoodApp.API.Users.pdb
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\FoodApp.API.Users.genruntimeconfig.cache
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\ref\FoodApp.API.Users.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.API.Users\obj\Debug\net7.0\FoodApp..AD1FA108.Up2Date

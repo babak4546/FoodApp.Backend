@@ -9,8 +9,8 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp.Infrastructure.AssemblyInfo.cs
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp.Infrastructure.csproj.CoreCompileInputs.cache
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp.Infrastructure.sourcelink.json
-C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp.Infrastructure.csproj.CopyComplete
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp.Infrastructure.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\refint\FoodApp.Infrastructure.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp.Infrastructure.pdb
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\ref\FoodApp.Infrastructure.dll
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Infrastructure\obj\Debug\net7.0\FoodApp..41C74AD5.Up2Date
