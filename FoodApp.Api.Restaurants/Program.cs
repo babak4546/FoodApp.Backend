@@ -1,9 +1,14 @@
+using Azure.Core;
 using FoodApp.Api.Restaurants.DTOs;
 using FoodApp.Core.Entities;
 using FoodApp.Infrastructure.Data;
 using FoodApp.Infrastructure.Security;
+using FoodApp.Infrastructure.UI;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System.Security.Claims;
+using System.Text.Json.Serialization;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +32,8 @@ app.MapPost("/createrequest",async (FoodAppDB db,ClaimsPrincipal user, Restauran
 }).RequireAuthorization();
 app.MapPost("/myrequestlist", async (FoodAppDB db,ClaimsPrincipal user) =>
 {
+
+
     var username = user.Claims.FirstOrDefault(m => m.Type == "Username")?.Value;
     return Results.Ok( db
     .Restaurants
@@ -65,14 +72,20 @@ app.MapPost("/changestate", (FoodAppDB db, ChangeStateDto changestate, ClaimsPri
     return Results.Ok();
 }).RequireAuthorization();
 
-app.MapPost("/requestlist", async (FoodAppDB db,ClaimsPrincipal user) =>
+app.MapPost("/requestlist", async (FoodAppDB db,ClaimsPrincipal user, ListRequestDTO request) =>
 {
+    dynamic filter = JsonConvert.DeserializeObject(request.Filter) ?? "";
+    string title = filter.title ?? "";
+    string address = filter.address ?? "";
+
     if (user.Claims.FirstOrDefault(m=>m.Type=="Type")?.Value!="SystemAdmin")
     {
         return Results.Unauthorized();
     }
     return Results.Ok(db.Restaurants
     .Include(m =>m.Owner)
+    .Where(r=>title==""|| r.Title.Contains(title))
+    .Where(r => address == "" || r.Address.Contains(address))
     .Where(r => r.IsApproved == false)
     .Select(m=>new  RequestDto
     {

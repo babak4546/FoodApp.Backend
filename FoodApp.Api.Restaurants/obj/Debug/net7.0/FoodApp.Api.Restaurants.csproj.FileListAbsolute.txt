@@ -75,3 +75,4 @@ C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Restaurants\obj\Debug\net7.
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Restaurants\obj\Debug\net7.0\FoodApp.Api.Restaurants.genruntimeconfig.cache
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Restaurants\obj\Debug\net7.0\ref\FoodApp.Api.Restaurants.dll
 C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Restaurants\obj\Debug\net7.0\FoodApp..1B37F88B.Up2Date
+C:\prog\realproj\backend\FoodApp.Backend\FoodApp.Api.Restaurants\bin\Debug\net7.0\Newtonsoft.Json.dll
